@@ -1,8 +1,6 @@
 package geometry
 
-import (
-	"math"
-)
+import "math"
 
 // CartesianCoords прямоугольные координаты.
 type CartesianCoords struct {
