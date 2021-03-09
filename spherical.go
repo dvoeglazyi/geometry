@@ -13,7 +13,7 @@ type SphericalCoords struct {
 	Radius    float64 // in au
 }
 
-// NewSphericalCoords создаёт новые сферические координаты, где широта и долгота задана градусами.
+// NewSphericalCoords создаёт новые сферические координаты, где широта и долгота заданы градусами.
 func NewCoordsFromDegrees(longitude, latitude float64) SphericalCoords {
 	return NewSphericalCoords(longitude*Degree, latitude*Degree, 0)
 }
