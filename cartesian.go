@@ -1,5 +1,9 @@
 package gorewind
 
+// gorewind - Golang library for working with spherical coordinates system.
+// Copyright © 2021 Dvoeglazyi
+// License: http://github.com/dvoeglazyi/gorewind/LICENSE
+
 import "math"
 
 // CartesianCoords прямоугольные координаты.
